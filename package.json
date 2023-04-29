@@ -2,8 +2,8 @@
   "name": "rd-flexinput",
   "version": "1.0.0",
   "description": "A simple and flexible input component library for React applications, designed to make form-building easier and more intuitive.",
-  "main": "dist/rd-flexinput.js",
-  "module": "dist/rd-flexinput.js",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watchAll",
