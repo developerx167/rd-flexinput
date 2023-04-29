@@ -1,0 +1,64 @@
+{
+  "name": "rd-flexinput",
+  "version": "1.0.0",
+  "description": "A simple and flexible input component library for React applications, designed to make form-building easier and more intuitive.",
+  "main": "dist/rd-flexinput.js",
+  "module": "dist/rd-flexinput.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "build": "tsc --emitDeclarationOnly --declaration && webpack --mode production",
+    "dev": "webpack serve --config webpack.config.dev.js --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/developerx167/rd-flexinput.git"
+  },
+  "keywords": [
+    "react",
+    "form",
+    "input",
+    "component",
+    "library",
+    "flexible",
+    "easy",
+    "intuitive"
+  ],
+  "author": "devx167",
+  "license": "    MIT",
+  "bugs": {
+    "url": "https://github.com/developerx167/rd-flexinput/issues"
+  },
+  "homepage": "https://github.com/developerx167/rd-flexinput#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/preset-typescript": "^7.21.4",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
+    "@types/jest": "^29.5.1",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.1",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.7.3",
+    "html-webpack-plugin": "^5.5.1",
+    "jest": "^29.5.0",
+    "jest-environment-jsdom": "^29.5.0",
+    "style-loader": "^3.3.2",
+    "ts-jest": "^29.1.0",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.4",
+    "webpack": "^5.81.0",
+    "webpack-cli": "^5.0.2",
+    "webpack-dev-server": "^4.13.3"
+  },
+  "files": [
+    "/dist/*"
+  ]
+}
