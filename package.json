@@ -8,7 +8,7 @@
     "test": "jest",
     "test:watch": "jest --watchAll",
     "coverage" : "jest --coverage",
-    "build": "tsc --emitDeclarationOnly --declaration && webpack --mode production",
+    "build": "webpack --mode production && tsc --emitDeclarationOnly --declaration",
     "dev": "webpack serve --config webpack.config.dev.js --mode development"
   },
   "repository": {
