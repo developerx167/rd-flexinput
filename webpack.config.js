@@ -1,10 +1,9 @@
 const path = require("path");
-const {name} = require("./package.json")
 module.exports = {
     entry: './src/component/index.tsx',
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: `${name}.js`,
+        filename: `index.js`,
         library :  "FlexInput",
         libraryTarget : "umd",
         globalObject : "this"
