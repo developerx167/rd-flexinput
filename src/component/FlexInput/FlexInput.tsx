@@ -48,7 +48,7 @@ const FlexInput = ({
         <input {...inputProps} onChange={changeHandler} onFocus={focusHandler} onBlur={blurHandler} disabled={(inputProps?.disabled || disabledOverlayElememt) ? true : false}/>
       </div>
       {afterElement}
-      {inputProps?.disabled && disabledOverlayElememt}
+      {(inputProps?.disabled || disabledOverlayElememt) && disabledOverlayElememt}
     </div>
   )
 }
