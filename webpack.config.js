@@ -9,7 +9,7 @@ module.exports = {
         globalObject : "this"
     },
     resolve: {
-        extensions: ['.js', '.jsx', '.ts', '.tsx','d.ts']
+        extensions: ['.js', '.jsx', '.ts', '.tsx']
     },
     optimization : {
         minimize : true,
@@ -35,5 +35,10 @@ module.exports = {
                 use: ['style-loader', 'css-loader'],
             },
         ]
+    },
+    // should not be included in react projects
+    externals: {
+        "react": "commonjs react",
+        "react-dom": "commonjs react-dom",
     }
 }
