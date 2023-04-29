@@ -15,7 +15,7 @@ const FlexInput = ({
 } : FlexInputProps) => {
   const [focus,setFocus] = useState<boolean>(false);
   const [className,setClassName] = useState<string>(`${containerClassName ? containerClassName : ""} ${(inputProps?.value && hasValueContainerClassName) ? hasValueContainerClassName : "" }`);
-  const [hasValue,setHasValue] = useState<boolean>(false);
+  const [hasValue,setHasValue] = useState<boolean>(inputProps?.value ? true : false);
   function focusHandler(e : React.FocusEvent<HTMLInputElement, Element>){
     setFocus(true);
     inputProps?.onFocus && inputProps.onFocus(e);
