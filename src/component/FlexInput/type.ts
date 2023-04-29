@@ -1,4 +1,5 @@
-export type LabelContentType = JSX.Element | string;
+import { ReactNode } from "react";
+export type LabelContentType = ReactNode | string;
 export interface FlexInputProps {
     inputProps? : React.InputHTMLAttributes<HTMLInputElement>,
     labelContent? : LabelContentType
