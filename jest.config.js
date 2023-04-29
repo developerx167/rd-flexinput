@@ -2,9 +2,9 @@
 const config = {
   preset : 'ts-jest',
   transform: {
-    '\\.test\.(ts|tsx)?$': 'ts-jest',
+    '^.+\\.(test)\\.(ts|tsx)?$': 'ts-jest',
   },
-  testEnvironment : "jsdom"
+  testEnvironment : "jsdom",
 };
 
 module.exports = config;
