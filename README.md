@@ -134,7 +134,7 @@ FlexInput accepts the following props:
 
 * `labelClassName` : The CSS class to be applied to the label element.
 
-* `disabledOverlayElememt` : A JSX element to be displayed over the input when it is disabled.
+* `disabledOverlayElememt` : A JSX element to be displayed over the input when it is disabled. If this prop is provided, the input is automatically considered as disabled.
 
 * `beforeElement` : A JSX element to be displayed before the input.
 
