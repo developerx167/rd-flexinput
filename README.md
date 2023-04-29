@@ -120,7 +120,7 @@ FlexInput accepts the following props:
 
 * `inputProps` : The props to be passed to the input element.
 
-* `labelContent` : The content of the label. Can be a string or a JSX element.
+* `labelContent` : The content of the label. Can be a string or a ReactNode.
 
 * `containerClassName` : The CSS class to be applied to the container element.
 
