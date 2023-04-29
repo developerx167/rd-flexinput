@@ -7,8 +7,9 @@
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watchAll",
-    "coverage" : "jest --coverage",
+    "coverage": "jest --coverage",
     "build": "webpack --mode production && tsc --emitDeclarationOnly --declaration",
+    "build:dev": "webpack --mode development && tsc --emitDeclarationOnly --declaration",
     "dev": "webpack serve --config webpack.config.dev.js --mode development"
   },
   "repository": {
@@ -31,10 +32,6 @@
     "url": "https://github.com/developerx167/rd-flexinput/issues"
   },
   "homepage": "https://github.com/developerx167/rd-flexinput#readme",
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
   "devDependencies": {
     "@babel/cli": "^7.21.0",
     "@babel/core": "^7.21.4",
@@ -61,5 +58,9 @@
   },
   "files": [
     "/dist/*"
-  ]
+  ],
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
 }
