@@ -143,7 +143,7 @@ FlexInput accepts the following props:
 Contribution
 ------------
 
-Contributions are welcome and appreciated! If you find any issues or have suggestions for improvement, please submit a pull request or create an issue on the [GitHub repository](https://github.com/yourusername/rd-flexinput/issues).
+Contributions are welcome and appreciated! If you find any issues or have suggestions for improvement, please submit a pull request or create an issue on the [GitHub repository](https://github.com/developerx167/rd-flexinput/issues).
 
 License
 -------
