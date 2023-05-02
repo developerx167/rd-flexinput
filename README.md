@@ -19,7 +19,7 @@ Usage
 To use FlexInput, simply import it and use it in your React components:
 
 
-```
+```js
 //MyComponent.tsx
 
 import React, { useState } from "react";
