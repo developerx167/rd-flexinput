@@ -38,7 +38,7 @@ const FlexInput = ({
     }else{
       setClassName(`${containerClassName ? containerClassName : ""} ${blurContainerClassName ? blurContainerClassName : ""} ${(hasValue && hasValueContainerClassName) ? hasValueContainerClassName : "" }`);
     }
-  },[focus,hasValue])
+  },[focus,hasValue,containerClassName,blurContainerClassName,focusContainerClassName,hasValueContainerClassName])
 
   return (
     <div style={{position : "relative"}} className={className}>
