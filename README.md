@@ -1,7 +1,7 @@
-FlexInput
-=========
+FlexInput - A Flexible and Unstyled Input Component for React
+=============================================================
 
-FlexInput is a flexible input component for React.
+FlexInput is a highly flexible and unstyled input component for React that allows you to create custom input fields with ease. With its simple design, FlexInput can adapt to various use cases and design needs, making it a perfect choice for any project that requires customizable inputs.
 
 Installation
 ------------
