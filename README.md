@@ -50,7 +50,7 @@ const MyComponent = () => {
 };
 ```
 
-```
+```css
 /* styles.css */
 
 .container{
