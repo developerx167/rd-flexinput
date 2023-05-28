@@ -40,6 +40,12 @@ const FlexInput = ({
     }
   },[focus,hasValue,containerClassName,blurContainerClassName,focusContainerClassName,hasValueContainerClassName])
 
+  useEffect(()=>{
+    if(disabledOverlayElememt || inputProps?.disabled){
+      setFocus(false);
+    }
+  },[disabledOverlayElememt,inputProps?.disabled])
+
   return (
     <div style={{position : "relative"}} className={className}>
       {beforeElement}
